@@ -2,14 +2,7 @@
 Cli tool for downloading spotify tracks from youtube<br>
 As of now, supports playlist & album downloads<br>
 Results may be invalid, make sure to double check downloads(currently works for most genres, although classical music results are bad)<br>
-
-
-# Installation
-```
-git clone https://github.com/wdmvv/spot-on
-cd spot-on
-pip install -r requirements.txt
-```
+<br>
 You will also have to obtain spotify app client id and secret. To do that go to the [app creation page](https://developer.spotify.com/dashboard) and create new app. Upon creating, click "Settings" button, copy client id & client secret and put both into .env file
 
 
@@ -35,14 +28,6 @@ python3.11 main.py --type album --path 'Infinite Hyperdeath' https://open.spotif
 python3.11 main.py --precise https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M
 ```
   \- will create folder 'Downloads' and download playlist filtered by duration  into it
-
-
-# TBD
-<ul>
-  <li>Add 403 error workaround (given that I find one)</li>
-  <li>Threads</li>
-</ul>
-
 
 # Known problem(s)
 <ul>
