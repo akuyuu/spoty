@@ -7,7 +7,7 @@
 '''
 
 import os
-import spoton.structs as structs
+import spoty.structs as structs
 import yt_dlp
 import music_tag
 import requests

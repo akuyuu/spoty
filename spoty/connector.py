@@ -2,9 +2,9 @@
     Connector between spotify.py and download.py 
 '''
 
-import spoton.spotify as spotify
-import spoton.downloader as downloader
-import spoton.structs as structs
+import spoty.spotify as spotify
+import spoty.downloader as downloader
+import spoty.structs as structs
 
 
 class Connector:

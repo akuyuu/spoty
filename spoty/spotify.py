@@ -8,7 +8,7 @@
 import base64
 import requests
 import json
-import spoton.structs as structs
+import spoty.structs as structs
 
 
 class Spotify:

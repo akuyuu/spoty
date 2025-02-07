@@ -1,6 +1,6 @@
 import dotenv, os
 import cliargs
-from spoton.connector import Connector
+from spoty.connector import Connector
 
 
 from datetime import datetime
