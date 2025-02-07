@@ -1,9 +1,9 @@
-# spot-on
-Cli tool for downloading spotify tracks from youtube<br>
-As of now, supports playlist & album downloads<br>
-Results may be invalid, make sure to double check downloads(currently works for most genres, although classical music results are bad)<br>
+# spoty
+cli tool for downloading spotify tracks from youtube<br>
+as of now, supports playlist & album downloads<br>
+results may be invalid, make sure to double check downloads (currently works for most genres, although classical music results are bad)<br>
 <br>
-You will also have to obtain spotify app client id and secret. To do that go to the [app creation page](https://developer.spotify.com/dashboard) and create new app. Upon creating, click "Settings" button, copy client id & client secret and put both into .env file
+you will also have to obtain spotify app client id and secret. To do that go to the [app creation page](https://developer.spotify.com/dashboard) and create new app. Upon creating, click "Settings" button, copy client id & client secret and put both into .env file
 
 
 # Usage:
@@ -28,8 +28,3 @@ python3.11 main.py --type album --path 'Infinite Hyperdeath' https://open.spotif
 python3.11 main.py --precise https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M
 ```
   \- will create folder 'Downloads' and download playlist filtered by duration  into it
-
-# Known problem(s)
-<ul>
-  <li>Sometimes download may fail with following error: `[download] Got error: HTTP Error 403: Forbidden`. I assume this is related to youtube doing something on their side since it used to work previously, I may find workaround in the future</li>
-</ul>
